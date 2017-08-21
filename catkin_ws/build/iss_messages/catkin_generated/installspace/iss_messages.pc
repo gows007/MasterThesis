@@ -1,0 +1,8 @@
+prefix=/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/install
+
+Name: iss_messages
+Description: Description of iss_messages
+Version: 0.0.0
+Cflags: -I/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/install/include
+Libs: -L/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/install/lib 
+Requires: message_runtime geometry_msgs roscpp rospy std_msgs

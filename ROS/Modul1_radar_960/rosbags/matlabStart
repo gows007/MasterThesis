@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+sleep 10
+
+cd ../radar_aquistion
+matlab -nodisplay -nodesktop <radarNode.m> out.log&
+echo "ISS Radar aquisition started"
+sleep 5
+
+cd ../RadarSignalProcessor/
+matlab -nodisplay -nodesktop <RadarSignalProcessor.m> out.log&
+echo "Matlab Radar Signal Processing started"
+sleep 7200

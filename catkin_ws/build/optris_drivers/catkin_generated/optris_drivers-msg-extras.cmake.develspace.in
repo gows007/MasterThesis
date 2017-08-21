@@ -1,0 +1,2 @@
+set(optris_drivers_MESSAGE_FILES "/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/optris_drivers/msg/Temperature.msg;/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/optris_drivers/msg/Flag.msg")
+set(optris_drivers_SERVICE_FILES "/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/optris_drivers/srv/AutoFlag.srv;/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/optris_drivers/srv/TemperatureRange.srv;/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/optris_drivers/srv/Palette.srv")

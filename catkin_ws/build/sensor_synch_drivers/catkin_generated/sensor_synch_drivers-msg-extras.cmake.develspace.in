@@ -1,0 +1,2 @@
+set(sensor_synch_drivers_MESSAGE_FILES "/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/sensor_synch_drivers/msg/FeuerIRImage.msg;/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/sensor_synch_drivers/msg/FeuerWeRRImuMsg.msg")
+set(sensor_synch_drivers_SERVICE_FILES "/home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/src/sensor_synch_drivers/srv/FeuerWeRRStartAquistion.srv")

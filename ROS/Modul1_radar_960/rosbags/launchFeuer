@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~/Repository/feuerwerr_ros/trunk/catkin_ws
+roslaunch feuerwerr_ISS_Radar.launch
+#pkill MATLAB
+
+

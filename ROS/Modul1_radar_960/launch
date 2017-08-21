@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+pkill MATLAB
+sleep 2
+cd rosbags/
+gnome-terminal -e ./launchFeuer &
+gnome-terminal -e ./matlabStart &
+#gnome-terminal -e ./rosbagstart &
+
+

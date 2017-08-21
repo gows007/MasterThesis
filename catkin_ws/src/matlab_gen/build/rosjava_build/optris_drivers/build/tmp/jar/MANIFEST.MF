@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: optris_drivers;version="1.1.0";uses:="org.ros.internal
+ .message,org.ros.message,sensor_msgs,std_msgs"
+Bundle-Version: 1.1.0
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: optris_drivers
+Bnd-LastModified: 1499184153000
+Created-By: 1.7.0_60 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.ros.rosjava_messages.optris_drivers
+Import-Package: org.ros.internal.message,org.ros.message,sensor_msgs;v
+ ersion="[1.10,2)",std_msgs;version="[0.5,1)"
+

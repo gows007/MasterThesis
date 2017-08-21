@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~threshold" : \b [double] threshold for temperature min: -20.0, default: 20.0, max: 100.0
+- \b "~invert" : \b [bool] invert min: False, default: False, max: True
+

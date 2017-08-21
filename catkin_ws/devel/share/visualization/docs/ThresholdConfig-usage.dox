@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="optris_drivers" pkg="optris_drivers" type="optris_drivers">
+  <param name="threshold" type="double" value="20.0" />
+  <param name="invert" type="bool" value="False" />
+</node>
+\endverbatim
+

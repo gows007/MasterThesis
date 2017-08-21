@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+pkill MATLAB
+sleep 2
+
+cd /home/feuerwerr/ISS_Code/LocalRadar/radar_aquistion
+matlab -nodisplay -nodesktop <radarNode.m> out.log&
+echo "ISS Radar aquisition started"
+sleep 5
+
+cd ~/ISS_Code/LocalRadar/RadarSignalProcessor/
+matlab -nodisplay -nodesktop <RadarSignalProcessor.m> out.log&
+echo "Matlab Radar Signal Processing started"
+sleep 7
+
+
+cd ~/ISS_Code/LocalRadar/rosbags/
+#gnome-terminal -e ./launchMATLAB &
+#sleep 7
+#gnome-terminal -e ./rosbagstart &
+
+gnome-terminal -e ./launchFeuer &
+
+sleep 20
+rosbag record /feuerwerr_siso_demo/image_raw /feuerwerr_siso_demo/FeuerRadarRaw /RadarTargetList /feuerwerr_siso_demo/FeuerTime_IR
+
+
+
+
+#rosbag record /feuerwerr_siso_demo/image_raw /feuerwerr_siso_demo/FeuerRadarRaw /RadarTargetList /feuerwerr_siso_demo/feuerIMU
+
+

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/feuerwerr/Repository/feuerwerr_ros/trunk/catkin_ws/devel/setup.sh

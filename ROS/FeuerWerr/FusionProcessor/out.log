@@ -1,0 +1,118 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument Driver/code' is not a valid
+folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d' is not a
+valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/win64' is
+not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/examples'
+is not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/glnxa64'
+is not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/.github'
+is not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/win32' is
+not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/help' is
+not a valid folder. You might not be able to run installed add-ons] 
+[Warning: '/home/feuerwerr/Documents/MATLAB/Add-Ons/Hardware Supports/PicoScope
+4000 Series (A API) - MATLAB Generic Instrument
+Driver/code/picotech-picosdk-ps4000a-matlab-instrument-driver-d211a3d/help/html'
+is not a valid folder. You might not be able to run installed add-ons] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Initialising Master
+Initializing global node /FusionProcessor_node with NodeURI http://dell5520:36274/
+  Columns 1 through 3
+
+    '/FusionProcessor...'    '/RadarSignalProc...'    '/feuerwerr_siso_...'
+
+  Columns 4 through 6
+
+    '/feuerwerr_siso_...'    '/feuerwerr_siso_...'    '/rosout'
+
+>> >> >> >> >> >> >> >> /RadarTargetList                                                                    
+/feuerwerr_siso_demo/FeuerTime_IR                                                   
+/feuerwerr_siso_demo/RadarTargetList                                                
+/feuerwerr_siso_demo/camera_info                                                    
+/feuerwerr_siso_demo/flag_state                                                     
+/feuerwerr_siso_demo/image_raw                                                      
+/feuerwerr_siso_demo/image_raw/compressed                                           
+/feuerwerr_siso_demo/image_raw/compressed/parameter_descriptions                    
+/feuerwerr_siso_demo/image_raw/compressed/parameter_updates                         
+/feuerwerr_siso_demo/image_raw/compressedDepth                                      
+/feuerwerr_siso_demo/image_raw/compressedDepth/parameter_descriptions               
+/feuerwerr_siso_demo/image_raw/compressedDepth/parameter_updates                    
+/feuerwerr_siso_demo/image_raw/theora                                               
+/feuerwerr_siso_demo/image_raw/theora/parameter_descriptions                        
+/feuerwerr_siso_demo/image_raw/theora/parameter_updates                             
+/feuerwerr_siso_demo/internal_temperature                                           
+/feuerwerr_siso_demo/optris_timer                                                   
+/feuerwerr_siso_demo/radar_thermal_image_view                                       
+/feuerwerr_siso_demo/radar_thermal_image_view/compressed                            
+/feuerwerr_siso_demo/radar_thermal_image_view/compressed/parameter_descriptions     
+/feuerwerr_siso_demo/radar_thermal_image_view/compressed/parameter_updates          
+/feuerwerr_siso_demo/radar_thermal_image_view/compressedDepth                       
+/feuerwerr_siso_demo/radar_thermal_image_view/compressedDepth/parameter_descriptions
+/feuerwerr_siso_demo/radar_thermal_image_view/compressedDepth/parameter_updates     
+/feuerwerr_siso_demo/radar_thermal_image_view/theora                                
+/feuerwerr_siso_demo/radar_thermal_image_view/theora/parameter_descriptions         
+/feuerwerr_siso_demo/radar_thermal_image_view/theora/parameter_updates              
+/feuerwerr_siso_demo/thermal_image                                                  
+/feuerwerr_siso_demo/thermal_image/compressed                                       
+/feuerwerr_siso_demo/thermal_image/compressed/parameter_descriptions                
+/feuerwerr_siso_demo/thermal_image/compressed/parameter_updates                     
+/feuerwerr_siso_demo/thermal_image/compressedDepth                                  
+/feuerwerr_siso_demo/thermal_image/compressedDepth/parameter_descriptions           
+/feuerwerr_siso_demo/thermal_image/compressedDepth/parameter_updates                
+/feuerwerr_siso_demo/thermal_image/theora                                           
+/feuerwerr_siso_demo/thermal_image/theora/parameter_descriptions                    
+/feuerwerr_siso_demo/thermal_image/theora/parameter_updates                         
+/feuerwerr_siso_demo/thermal_image_view                                             
+/feuerwerr_siso_demo/thermal_image_view/compressed                                  
+/feuerwerr_siso_demo/thermal_image_view/compressed/parameter_descriptions           
+/feuerwerr_siso_demo/thermal_image_view/compressed/parameter_updates                
+/feuerwerr_siso_demo/thermal_image_view/compressedDepth                             
+/feuerwerr_siso_demo/thermal_image_view/compressedDepth/parameter_descriptions      
+/feuerwerr_siso_demo/thermal_image_view/compressedDepth/parameter_updates           
+/feuerwerr_siso_demo/thermal_image_view/theora                                      
+/feuerwerr_siso_demo/thermal_image_view/theora/parameter_descriptions               
+/feuerwerr_siso_demo/thermal_image_view/theora/parameter_updates                    
+/feuerwerr_siso_demo/visible_image                                                  
+/feuerwerr_siso_demo/visible_image_view                                             
+/feuerwerr_siso_demo/visible_image_view/compressed                                  
+/feuerwerr_siso_demo/visible_image_view/compressed/parameter_descriptions           
+/feuerwerr_siso_demo/visible_image_view/compressed/parameter_updates                
+/feuerwerr_siso_demo/visible_image_view/compressedDepth                             
+/feuerwerr_siso_demo/visible_image_view/compressedDepth/parameter_descriptions      
+/feuerwerr_siso_demo/visible_image_view/compressedDepth/parameter_updates           
+/feuerwerr_siso_demo/visible_image_view/theora                                      
+/feuerwerr_siso_demo/visible_image_view/theora/parameter_descriptions               
+/feuerwerr_siso_demo/visible_image_view/theora/parameter_updates                    
+/fusionPoints                                                                       
+/rosout                                                                             
+/rosout_agg                                                                         
+>> >> >> >> >> >> Topic subscribed
+>> >> >> >> 

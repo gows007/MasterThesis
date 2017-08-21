@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+sleep 20
+cd rosbags/
+rosbag record /feuerwerr_siso_demo/FeuerIRImage /feuerwerr_siso_demo/FeuerRadarRaw /RadarTargetList /feuerwerr_siso_demo/FeuerTime_IR /feuerwerr_siso_demo/feuerIMU
+
+
